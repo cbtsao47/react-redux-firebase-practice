@@ -4,14 +4,14 @@ const SignedInLinks = () => {
   return (
     <ul className="right">
       <li>
-        <NavLink to="/">New Project</NavLink>
+        <NavLink to="/create">New Project</NavLink>
       </li>
       <li>
         <NavLink to="/">Log Out</NavLink>
       </li>
       <li>
         <NavLink to="/" className="btn btn-floating pink lighten-1">
-          MM
+          BT
         </NavLink>
       </li>
     </ul>
