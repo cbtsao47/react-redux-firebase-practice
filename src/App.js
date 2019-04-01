@@ -1,12 +1,16 @@
 import React, { Component } from "react";
 import "./App.css";
 import { BrowserRouter as Router } from "react-router-dom";
-
+import Navbar from "./components/layout/Navbar";
 class App extends Component {
   render() {
-    <Router>
-      return <div className="App" />;
-    </Router>;
+    return (
+      <Router>
+        <div className="App">
+          <Navbar />
+        </div>
+      </Router>
+    );
   }
 }
 
